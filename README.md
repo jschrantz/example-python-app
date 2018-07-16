@@ -10,6 +10,8 @@ with docker installed.
 
 ## Repository Overview
 
-record_manager/ contains the main python code
-test/ contains any unit tests for the python modules
-features/ contains behave component test suites for both the cli and rest interfaces
+directory | description
+--------- | -----------
+record_manager/ | Contains the main python code
+test/ | Contains any unit tests for the python modules
+features/ | Contains behave component test suites for both the cli and rest interfaces
