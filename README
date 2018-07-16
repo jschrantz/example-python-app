@@ -1,4 +1,5 @@
 An example app that processes records.
 
-# To run the unit tests, build the sdist package, and create a docker image
+# To run the unit tests, build the sdist package, run the cli component tests,
+# and create a docker image
 docker build .

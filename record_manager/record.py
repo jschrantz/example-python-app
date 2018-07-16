@@ -9,3 +9,10 @@ class Record(object):
 
     def __eq__(self, other):
         return self.__dict__ == other.__dict__
+
+    def __str__(self):
+        return '{} {} {} {} {}'.format(self.last_name,
+                                       self.first_name,
+                                       self.gender,
+                                       self.color,
+                                       self.dob.strftime('%m/%d/%Y'))
